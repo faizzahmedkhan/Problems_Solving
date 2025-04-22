@@ -91,10 +91,9 @@ int main()
                 if (me[0]==k && me[1]==l)
                 {
                     cout<<"X  ";
-                    l++;
                 }
-                
-                cout << "__ ";
+                else
+                    cout << "__ ";
             }
             cout << "" << endl;
         }
